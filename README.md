@@ -14,9 +14,9 @@ VoltGuard tackles this at the transformer level using a two-layer machine learni
 | Layer 2 | Q-Learning (RL) | Alert prioritization — ranks anomalies as HIGH / MEDIUM / LOW |
 
 Trained on **3 separate datasets** across distribution zones:
-- **Industrial** — high supply, moderate loss baseline
-- **Rural** — low supply, higher baseline loss (aging infrastructure)
-- **Urban** — medium supply, lowest loss (well-maintained grid)
+- **Industrial** 
+- **Rural** 
+- **Urban** 
 
 Each zone has **~1 lakh readings** spanning Oct 2014 → Mar 2026.
 
