@@ -1,8 +1,8 @@
 # ⚡ VoltGuard-AI
 
-> AI-powered power theft detection for distribution transformers — built for Indian DISCOMs.
+> AI-powered power theft detection for distribution transformers.
 
-India loses approximately **₹20,000 crore every year** to electricity theft. VoltGuard tackles this at the transformer level using a two-layer machine learning pipeline that detects abnormal energy loss patterns and prioritizes alerts for field teams.
+VoltGuard tackles this at the transformer level using a two-layer machine learning pipeline that detects abnormal energy loss patterns and prioritizes alerts for field teams.
 
 ---
 
@@ -14,9 +14,9 @@ India loses approximately **₹20,000 crore every year** to electricity theft. V
 | Layer 2 | Q-Learning (RL) | Alert prioritization — ranks anomalies as HIGH / MEDIUM / LOW |
 
 Trained on **3 separate datasets** across distribution zones:
-- 🏭 **Industrial** — high supply, moderate loss baseline
-- 🌾 **Rural** — low supply, higher baseline loss (aging infrastructure)
-- 🏙️ **Urban** — medium supply, lowest loss (well-maintained grid)
+- **Industrial** — high supply, moderate loss baseline
+- **Rural** — low supply, higher baseline loss (aging infrastructure)
+- **Urban** — medium supply, lowest loss (well-maintained grid)
 
 Each zone has **~1 lakh readings** spanning Oct 2014 → Mar 2026.
 
@@ -26,7 +26,6 @@ Each zone has **~1 lakh readings** spanning Oct 2014 → Mar 2026.
 
 - **ML:** Scikit-learn (Isolation Forest), Custom Q-Learning agent
 - **Frontend & Backend:** Streamlit
-- **Visualization:** Plotly
 - **Data:** Pandas, NumPy
 
 ---
