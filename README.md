@@ -37,6 +37,8 @@ Each zone has **~1 lakh readings** spanning Oct 2014 → Mar 2026.
 git clone https://github.com/sonu-cpp/VoltGuard-AI.git
 cd VoltGuard-AI
 ```
+OR
+clone it via GitHub Desktop
 
 **2. Create a virtual environment**
 ```bash
