@@ -66,24 +66,4 @@ streamlit run App.py
 
 ---
 
-## 📁 Project Structure
-
-```
-VoltGuard-AI/
-├── data/                   # Raw CSVs (industrial, rural, urban)
-├── models/                 # Trained .pkl files per zone
-├── notebooks/              # Training notebooks (IF + RL)
-├── outputs/                # Anomaly CSVs per zone
-├── pages/                  # Streamlit multi-page app
-│   ├── 1_Overview.py
-│   ├── 2_Alert_Feed.py
-│   ├── 3_Model_Info.py
-│   └── 4_Data_Pipeline.py
-├── utils/                  # Data loader, model loader, charts
-├── App.py                  # Entry point
-└── requirements.txt
-```
-
----
-
 > Built as a prototype to demonstrate that transformer-level power theft detection is feasible with open data and minimal infrastructure.
