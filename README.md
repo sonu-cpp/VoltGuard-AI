@@ -66,4 +66,4 @@ streamlit run App.py
 
 ---
 
-> Built as a prototype to demonstrate that transformer-level power theft detection is feasible with open data and minimal infrastructure.
+Built as a prototype to demonstrate that transformer-level power theft detection is feasible with open data and minimal infrastructure.
