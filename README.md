@@ -86,13 +86,4 @@ VoltGuard-AI/
 
 ---
 
-## 📊 Dashboard Pages
-
-- **Overview** — Zone-level KPIs, monthly energy loss trends, anomaly score timeline
-- **Alert Feed** — Filterable anomaly table with priority labels
-- **Model Info** — Isolation Forest & RL parameters, per-zone model status
-- **Data Pipeline** — Raw data preview and feature breakdown
-
----
-
 > Built as a prototype to demonstrate that transformer-level power theft detection is feasible with open data and minimal infrastructure.
